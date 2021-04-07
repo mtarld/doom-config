@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Mtarld">
+    <rule ref="Symfony">
+        <exclude name="Symfony.Commenting.License.Warning" />
+        <exclude name="Symfony.Commenting.ClassComment.Missing" />
+        <exclude name="Symfony.Commenting.FunctionComment.Missing" />
+        <exclude name="Generic.Formatting.SpaceAfterNot.Incorrect" />
+    </rule>
+</ruleset>
