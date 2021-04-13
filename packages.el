@@ -10,11 +10,12 @@
 ;; PHP
 ;;
 (package! php-cs-fixer :pin "c5b5d8a4986b31bade5e2a57131469bf90630db8")
+(package! feature-mode)
 
 ;;
-;; Behat
+;; Javascript
 ;;
-(package! feature-mode)
+(package! vue-mode)
 
 ;;
 ;; Projectile

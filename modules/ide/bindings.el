@@ -33,4 +33,7 @@
         :desc "Save all files" "S" #'evil-write-all)
 
       (:prefix ("p")
-        :desc "Yank relative filename" "y" #'copy-buffer-path))
+       :desc "Yank relative filename" "y" #'copy-buffer-path)
+
+      (:prefix ("p")
+        :desc "Toggle treemacs" "t" #'treemacs))

@@ -1,8 +1,5 @@
 ;;; config.el -*- lexical-binding: t; -*-
 
-;; Enable LSP
-(add-hook! 'php-mode-hook #'lsp)
-
 ;; Enable Symfony2 coding style
 (add-hook! 'php-mode-hook
   (custom-set-variables '(php-mode-coding-style 'symfony2)))

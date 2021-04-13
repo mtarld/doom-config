@@ -6,3 +6,4 @@
 (load! "modules/orgmode/autoload")
 (load! "modules/php/autoload")
 (load! "modules/restclient/autoload")
+(load! "modules/symfony/autoload")
