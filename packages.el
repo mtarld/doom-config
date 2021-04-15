@@ -1,11 +1,6 @@
 ;; -*- no-byte-compile: t; -*-
 ;;; ~/.doom.d/packages.el
 
-;;; Examples:
-;; (package! some-package)
-;; (package! another-package :recipe (:fetcher github :repo "username/repo"))
-;; (package! builtin-package :disable t)
-
 ;;
 ;; Dired plus
 ;;
@@ -14,13 +9,12 @@
 ;;
 ;; PHP
 ;;
-(package! ac-php)
-(package! company-php)
-(package! geben)
-(package! company-phpactor)
-(package! php-refactor-mode :disable t)
-(package! cl-lib)
-(package! phpstan)
+(package! php-cs-fixer :pin "c5b5d8a4986b31bade5e2a57131469bf90630db8")
+;;
+;;
+;; Javascript
+;;
+(package! vue-mode)
 
 ;;
 ;; Behat
@@ -38,14 +32,10 @@
 (package! git-gutter+)
 
 ;;
-;; Agenda
+;; Deadgrep
 ;;
-(package! org-super-agenda)
-
-;;
-;; Ripgrep
-;;
-(package! deadgrep)
+;; (package! deadgrep)
+(package! deadgrep :recipe (:host github :repo "mtarld/deadgrep" :branch "feature/skip-ignored"))
 
 ;;
 ;; Snippets
@@ -56,8 +46,3 @@
 ;; REST
 ;;
 (package! restclient)
-
-;;
-;; Markdown
-;;
-(package! vmd-mode)
