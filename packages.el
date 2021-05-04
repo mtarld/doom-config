@@ -2,9 +2,10 @@
 ;;; ~/.doom.d/packages.el
 
 ;;
-;; Dired plus
+;; Dired
 ;;
 (package! dired+ :recipe (:host github :repo "emacsmirror/dired-plus"))
+(package! dired-subtree)
 
 ;;
 ;; PHP

@@ -1,6 +1,7 @@
 ;;; $DOOMDIR/modules/ide/bindings.el -*- lexical-binding: t; -*-
 
 (map! "C-s" #'swiper)
+(define-key! dired-mode-map "TAB" #'dired-subtree-toggle)
 
 (map! :leader
       :desc "Ripgrep in project (without ignored)" "." #'counsel-rg-ignore
